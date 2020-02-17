@@ -121,6 +121,7 @@ public class MainActivity extends AppCompatActivity {
         String dir = file.getParent();
 
         String url ="http://10.107.254.108/Document/upload.php";
+        //String url ="http://45.77.45.211/document/";
 
         AndroidNetworking.upload(url)
                 .setPriority(Priority.MEDIUM)
